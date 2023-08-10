@@ -1,0 +1,128 @@
+.slider-image {
+    max-height: 700px !important;
+    object-fit: cover;
+}
+
+.service_icon {
+    font-size: 100px;
+
+   
+}
+.resume {
+    background: url(images/overview.jpeg)no-repeat;
+    height: 70vh;
+    width: 100%;
+    align-items: Right;
+}
+
+.resume h1 {
+    font-size: 3.8rem;
+}
+
+.footer {
+    background: rgb(196, 33, 255);
+    color: white;
+}
+
+.footer p {
+    margin: small;
+    color: whitesmoke;
+    font-size: 3.5rem;
+
+}
+.all{
+    font-size: 1rem;
+    text-align: center;
+}
+.ceta .card:hover{
+    color: purple;
+    cursor: pointer;
+    transition: all o.3s;
+    box-shadow: 17px -10px 45px -10px rgba(0,0,0,0.79);
+-webkit-box-shadow: 17px -10px 45px -10px rgba(0,0,0,0.79);
+-moz-box-shadow: 17px -10px 45px -10px rgba(0,0,0,0.79);
+}
+.red{
+    color: black;
+    font-size: 0.5rem;
+    text-align: center;
+
+}
+.img{
+    float: right;
+    height: 35vh;
+    width: 100%;
+}
+.p1{
+   text-align: left;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.btn0{
+    height: 50px;
+    width: 80px;
+    outline: none;
+    border-radius: 25px  ;
+    color: black;
+    cursor: pointer;
+    transition: all 0.4s ;
+    background-color: #C4C4C4;
+    align-items: right;
+}
+
+.btn0:hover{
+    background: gray;
+    transition: all 0.4s;
+}
+
+.btn1{
+    height: 50px;
+    width: 80px;
+    outline: none;
+    border-radius: 25px  ;
+    color: black;
+    cursor: pointer;
+    transition: all 0.4s ;
+    background-color: #C4C4C4;
+
+}
+.btn1:hover{
+    background: white;
+    transition: all 0.4s;
+}
+.box-area{
+    width: 930px ;
+}
+
+.box-area{
+    width: 930px;
+}
+/*------------ Right box ------------*/
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+/*------------ Custom Placeholder ------------*/
+::placeholder{
+    font-size: 16px;
+}
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+/*------------ For small screens------------*/
+@media only screen and (max-width: 768px){
+     .box-area{
+        margin: 0 10px;
+     }
+     .left-box{
+        height: 100px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 20px;
+     }
+ }

@@ -1,0 +1,18 @@
+{
+    "brandName":"Job Coach",
+    "brandIconUrl":"https://w7.pngwing.com/pngs/501/906/png-transparent-laptop-computer-icons-computer-software-business-intelligence-user-map-icon-electronics-text-logo.png",
+    "links":[
+        {
+            "label":"Home",
+            "url":"/"
+        },
+        {
+            "label":"About Us",
+            "url":"/about"
+        },
+        {
+            "label":"Overview",
+            "url":"/overview"
+        }
+    ]
+}
